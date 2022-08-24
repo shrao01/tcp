@@ -1,0 +1,26 @@
+n -t * -s 0  -x 460 -y 532 -Z 0 -z 20  -v circle -c black
+n -t * -s 1  -x 866 -y 291 -Z 0 -z 20  -v circle -c black
+n -t * -s 2  -x 983 -y 659 -Z 0 -z 20  -v circle -c black
+V -t * -v 1.0a5 -a 0
+W -t * -x 1083 -y 759
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
++ -t 0.032821055 -s 1 -d -1 -p message -e 32 -c 2 -a 0 -i 0 -k RTR 
+- -t 0.032821055 -s 1 -d -1 -p message -e 32 -c 2 -a 0 -i 0 -k RTR
+h -t 0.032821055 -s 1 -d -1 -p message -e 32 -c 2 -a 0 -i 0 -k RTR
++ -t 0.033056055 -s 1 -d -1 -p message -e 90 -c 2 -a 0 -i 0 -k MAC 
+- -t 0.033056055 -s 1 -d -1 -p message -e 90 -c 2 -a 0 -i 0 -k MAC
+h -t 0.033056055 -s 1 -d -1 -p message -e 90 -c 2 -a 0 -i 0 -k MAC
++ -t 0.178591360 -s 2 -d -1 -p message -e 32 -c 2 -a 0 -i 1 -k RTR 
+- -t 0.178591360 -s 2 -d -1 -p message -e 32 -c 2 -a 0 -i 1 -k RTR
+h -t 0.178591360 -s 2 -d -1 -p message -e 32 -c 2 -a 0 -i 1 -k RTR
++ -t 0.178926360 -s 2 -d -1 -p message -e 90 -c 2 -a 0 -i 1 -k MAC 
+- -t 0.178926360 -s 2 -d -1 -p message -e 90 -c 2 -a 0 -i 1 -k MAC
+h -t 0.178926360 -s 2 -d -1 -p message -e 90 -c 2 -a 0 -i 1 -k MAC
++ -t 1.113402886 -s 0 -d -1 -p message -e 32 -c 2 -a 0 -i 2 -k RTR 
+- -t 1.113402886 -s 0 -d -1 -p message -e 32 -c 2 -a 0 -i 2 -k RTR
+h -t 1.113402886 -s 0 -d -1 -p message -e 32 -c 2 -a 0 -i 2 -k RTR
++ -t 1.113637886 -s 0 -d -1 -p message -e 90 -c 2 -a 0 -i 2 -k MAC 
+- -t 1.113637886 -s 0 -d -1 -p message -e 90 -c 2 -a 0 -i 2 -k MAC
+h -t 1.113637886 -s 0 -d -1 -p message -e 90 -c 2 -a 0 -i 2 -k MAC
+W -t 10.0
